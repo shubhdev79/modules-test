@@ -3,6 +3,8 @@ provider "aws" {
   region  = "us-east-1"
 }
 
+#-------Importing the modules for Both Mgmt & Prod"-------------
+
 module "Management" {
     source = "./modules/Management"
 
